@@ -1,5 +1,6 @@
 <?php
-	
+	include 'inc/classes/DB.php';
+	// allow the footer
 	define('ALLOW-FOOTER', true);
 	// allow the config
 	define('__CONFIG__', true);

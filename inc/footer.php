@@ -1,4 +1,5 @@
 <?php 
+	include 'inc/classes/DB.php';
 	// if (!defined('ALLOW-FOOTER')) {
 	// 	exit("You don't have footer file");
 	// }

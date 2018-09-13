@@ -1,5 +1,6 @@
 <?php
-	
+	include 'inc/classes/DB.php';
+	// allow the footer
 	define('ALLOW-FOOTER', true);
 	// allow the config
 	define('__CONFIG__', true);
@@ -25,7 +26,7 @@
 		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid="">
 
 			<form class="uk-form-stacked js-login">
-				
+
 				<h2>Login</h2>
 
 			    <div class="uk-margin">

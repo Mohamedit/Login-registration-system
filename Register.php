@@ -1,5 +1,6 @@
 <?php
-	
+	include 'inc/classes/DB.php';
+	// allow the footer
 	define('ALLOW-FOOTER', true);
 	// allow the config
 	define('__CONFIG__', true);
@@ -27,7 +28,7 @@
 			<form class="uk-form-stacked js-register">
 
 				<h2>Register</h2>
-				
+
 			    <div class="uk-margin">
 			        <label class="uk-form-label" for="form-stacked-text">Email</label>
 			        <div class="uk-form-controls">
